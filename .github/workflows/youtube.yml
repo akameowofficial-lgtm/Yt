@@ -5,21 +5,31 @@ system = open(f"/tmp/yt/skills/{skill}/SKILL.md").read()
 voice = open("voice.md").read()
 
 body = {
-    "system_instruction": {"parts": [{"text": system + "\n\nCreator voice file:\n" + voice}]},
+    "system_instruction": {
+        "parts": [{"text": system + "\n\nCreator voice file:\n" + voice}]
+    },
     "contents": [{"parts": [{"text": task}]}],
 }
-model = "gemini-2.5-flash-lite"
-req = urllib.request.Request(
-    f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-    data=json.dumps(body).encode(),
-    headers={
-        "Content-Type": "application/json",
-        "x-goog-api-key": os.environ["GEMINI_API_KEY"],
-    },
-)
-try:
-    r = json.load(urllib.request.urlopen(req))
-    print(r["candidates"][0]["content"]["parts"][0]["text"])
-except urllib.error.HTTPError as e:
-    print("ERROR", e.code, e.read().decode())
-    sys.exit(1)
+
+models = [
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash",
+    "gemini-3-flash",
+]
+
+last_error = ""
+for model in models:
+    req = urllib.request.Request(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+        data=json.dumps(body).encode(),
+        headers={
+            "Content-Type": "application/json",
+            "x-goog-api-key": os.environ["GEMINI_API_KEY"],
+        },
+    )
+    try:
+        r = json.load(urllib.request.urlopen(req))
+        print(r["candidates"][0]["content"]["parts"][0]["text"])
+        sys.exit(0)
+    except urllib.error.HTTPError as e:
+        last_error = f"{
