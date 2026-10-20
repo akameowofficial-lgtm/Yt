@@ -1,33 +1,53 @@
-name: yt-agent
+import os, sys, json, urllib.request, urllib.error
 
-on:
-  schedule:
-    - cron: "0 9 * * *"
-  workflow_dispatch:
+KEY = os.environ["GEMINI_API_KEY"]
+BASE = "https://generativelanguage.googleapis.com/v1beta"
+HEADERS = {"Content-Type": "application/json", "x-goog-api-key": KEY}
 
-permissions:
-  contents: write
+skill, task = sys.argv[1], sys.argv[2]
+system = open(f"/tmp/yt/skills/{skill}/SKILL.md").read()
+voice = open("voice.md").read()
 
-jobs:
-  run:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+# Ask Google which models this key can use
+req = urllib.request.Request(f"{BASE}/models?pageSize=100", headers=HEADERS)
+try:
+    data = json.load(urllib.request.urlopen(req))
+except urllib.error.HTTPError as e:
+    print("LIST MODELS FAILED:", e.code, e.read().decode())
+    sys.exit(1)
 
-      - name: Get skills
-        run: git clone https://github.com/Jakeschincariol/youtube-agent-skill.git /tmp/yt
+names = [
+    m["name"]
+    for m in data.get("models", [])
+    if "generateContent" in m.get("supportedGenerationMethods", [])
+    and "flash" in m["name"]
+    and not any(x in m["name"] for x in ["image", "tts", "live", "audio", "thinking", "robotics"])
+]
+# Prefer lite models (loosest free limits), then others
+names.sort(key=lambda n: (0 if "lite" in n else 1, n))
+print("Models available:", names, file=sys.stderr)
 
-      - name: Run
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          mkdir -p output
-          python3 .github/workflows/run.py yt-plan "Plan this week of uploads for my channel" > output/plan-$(date +%F).md
+body = {
+    "system_instruction": {
+        "parts": [{"text": system + "\n\nCreator voice file:\n" + voice}]
+    },
+    "contents": [{"parts": [{"text": task}]}],
+}
 
-      - name: Save result
-        run: |
-          git config user.name "bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add output
-          git commit -m "daily output" || exit 0
-          git push
+last_error = ""
+for name in names[:5]:
+    req = urllib.request.Request(
+        f"{BASE}/{name}:generateContent",
+        data=json.dumps(body).encode(),
+        headers=HEADERS,
+    )
+    try:
+        r = json.load(urllib.request.urlopen(req))
+        print(r["candidates"][0]["content"]["parts"][0]["text"])
+        sys.exit(0)
+    except urllib.error.HTTPError as e:
+        last_error = f"{name}: {e.code} {e.read().decode()}"
+        print("Failed:", last_error, file=sys.stderr)
+
+print("ALL MODELS FAILED:", last_error)
+sys.exit(1)
