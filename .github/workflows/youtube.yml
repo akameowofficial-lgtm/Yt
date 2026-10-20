@@ -1,53 +1,25 @@
-import os, sys, json, urllib.request, urllib.error
+name: yt-agent
 
-KEY = os.environ["GEMINI_API_KEY"]
-BASE = "https://generativelanguage.googleapis.com/v1beta"
-HEADERS = {"Content-Type": "application/json", "x-goog-api-key": KEY}
+on:
+  schedule:
+    - cron: 0 9 * * *
+  workflow_dispatch:
 
-skill, task = sys.argv[1], sys.argv[2]
-system = open(f"/tmp/yt/skills/{skill}/SKILL.md").read()
-voice = open("voice.md").read()
+permissions:
+  contents: write
 
-# Ask Google which models this key can use
-req = urllib.request.Request(f"{BASE}/models?pageSize=100", headers=HEADERS)
-try:
-    data = json.load(urllib.request.urlopen(req))
-except urllib.error.HTTPError as e:
-    print("LIST MODELS FAILED:", e.code, e.read().decode())
-    sys.exit(1)
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-names = [
-    m["name"]
-    for m in data.get("models", [])
-    if "generateContent" in m.get("supportedGenerationMethods", [])
-    and "flash" in m["name"]
-    and not any(x in m["name"] for x in ["image", "tts", "live", "audio", "thinking", "robotics"])
-]
-# Prefer lite models (loosest free limits), then others
-names.sort(key=lambda n: (0 if "lite" in n else 1, n))
-print("Models available:", names, file=sys.stderr)
+      - name: Get skills
+        run: git clone https://github.com/Jakeschincariol/youtube-agent-skill.git /tmp/yt
 
-body = {
-    "system_instruction": {
-        "parts": [{"text": system + "\n\nCreator voice file:\n" + voice}]
-    },
-    "contents": [{"parts": [{"text": task}]}],
-}
-
-last_error = ""
-for name in names[:5]:
-    req = urllib.request.Request(
-        f"{BASE}/{name}:generateContent",
-        data=json.dumps(body).encode(),
-        headers=HEADERS,
-    )
-    try:
-        r = json.load(urllib.request.urlopen(req))
-        print(r["candidates"][0]["content"]["parts"][0]["text"])
-        sys.exit(0)
-    except urllib.error.HTTPError as e:
-        last_error = f"{name}: {e.code} {e.read().decode()}"
-        print("Failed:", last_error, file=sys.stderr)
-
-print("ALL MODELS FAILED:", last_error)
-sys.exit(1)
+      - name: Run
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          mkdir -p output
+          p
