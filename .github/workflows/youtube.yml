@@ -19,7 +19,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           mkdir -p output
-          python3 run.py yt-plan "Plan this week of uploads for my channel" > output/plan-$(date +%F).md
+          python3 .github/workflows/run.py yt-plan "Plan this week of uploads for my channel" > output/plan-$(date +%F).md
       - name: Save result
         run: |
           git config user.name "bot"
