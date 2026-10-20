@@ -1,29 +1,25 @@
-name: yt-agent
-on:
-  schedule:
-    - cron: "0 9 * * *"
-  workflow_dispatch:
+import os, sys, json, urllib.request, urllib.error
 
-permissions:
-  contents: write
+skill, task = sys.argv[1], sys.argv[2]
+system = open(f"/tmp/yt/skills/{skill}/SKILL.md").read()
+voice = open("voice.md").read()
 
-jobs:
-  run:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Get skills
-        run: git clone https://github.com/Jakeschincariol/youtube-agent-skill.git /tmp/yt
-      - name: Run
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          mkdir -p output
-          python3 .github/workflows/run.py yt-plan "Plan this week of uploads for my channel" > output/plan-$(date +%F).md
-      - name: Save result
-        run: |
-          git config user.name "bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add output
-          git commit -m "daily output" || exit 0
-          git push
+body = {
+    "system_instruction": {"parts": [{"text": system + "\n\nCreator voice file:\n" + voice}]},
+    "contents": [{"parts": [{"text": task}]}],
+}
+model = "gemini-2.5-flash-lite"
+req = urllib.request.Request(
+    f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+    data=json.dumps(body).encode(),
+    headers={
+        "Content-Type": "application/json",
+        "x-goog-api-key": os.environ["GEMINI_API_KEY"],
+    },
+)
+try:
+    r = json.load(urllib.request.urlopen(req))
+    print(r["candidates"][0]["content"]["parts"][0]["text"])
+except urllib.error.HTTPError as e:
+    print("ERROR", e.code, e.read().decode())
+    sys.exit(1)
