@@ -1,8 +1,7 @@
-To build a plan that actually fits your capacity, I need two details from you first:
+To build a plan that actually fits your schedule, I need to calibrate for your current capacity.
 
-1. **How many hours do you realistically have to dedicate to production this week?**
-2. **What is already half-made?** (e.g., Do you have a backlog of raw clips, a half-edited project, or just a pile of ideas?)
+1. **How many hours do you realistically have to dedicate to production this week?** (Include editing, recording, and uploading).
+2. **What is already half-made?** (Do you have raw footage sitting in a folder, a half-edited project, or a clip you've been meaning to touch up?)
+3. **What day of the week does your channel analytics data show is your highest-performing day for long-form content?**
 
-Also, as per my instructions, I need to make sure I’m writing in your voice. Please share **three of your existing video links** (or describe the content if they aren't live). I will analyze them to ensure the script/planning notes sound like *you* and not a robot.
-
-Once you provide those, I will generate your weekly calendar and the cost-of-time breakdown.
+Once I have these, I can build your anchor, your cheap win, and your Shorts strategy.
