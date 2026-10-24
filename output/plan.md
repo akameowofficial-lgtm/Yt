@@ -1,7 +1,8 @@
-To build a plan that actually fits your schedule, I need to calibrate for your current capacity.
+To build a plan that actually fits your schedule, I need two details from you:
 
-1. **How many hours do you realistically have to dedicate to production this week?** (Include editing, recording, and uploading).
-2. **What is already half-made?** (Do you have raw footage sitting in a folder, a half-edited project, or a clip you've been meaning to touch up?)
-3. **What day of the week does your channel analytics data show is your highest-performing day for long-form content?**
+1. **How many hours do you realistically have this week for editing and recording?**
+2. **What is already "half-made"?** (e.g., Do you have a recording sitting in your folder? A specific clip you’ve been meaning to edit? A trend you’ve already jumped on?)
 
-Once I have these, I can build your anchor, your cheap win, and your Shorts strategy.
+Also, **what day of the week does your channel analytics say is your best for publishing?**
+
+Once you give me those, I will build your week around one anchor, one "cheap" win, and your three Shorts.
