@@ -1,7 +1,7 @@
-To build a plan that actually fits your capacity, I need to calibrate based on your current reality. Before I build out your calendar:
+To build a plan that actually fits your capacity, I need to calibrate this to your specific routine. Before I draft your calendar, please answer:
 
-1. **How many hours total do you have to dedicate to editing and content creation this week?**
-2. **What is already "half-made"?** (e.g., Do you have raw footage sitting in a folder, a clip you’ve been meaning to edit, or a draft script?)
-3. **What is your highest-performing upload day according to your YouTube Analytics?** (e.g., "Tuesday," "Friday," etc.)
+1. **How many hours do you actually have** to dedicate to your channel this week?
+2. **What is already half-made?** (e.g., recorded footage, half-edited projects, scripts, or clips you've flagged).
+3. **What is your channel’s best-performing upload day?** (Check your YouTube Analytics "When your viewers are on YouTube" tab).
 
-Once you provide these, I will generate your table and your plan.
+Once you provide those, I will generate the anchor video, the "cheap" follow-up, and the Shorts plan tailored to the Aka Yan Verse style.
