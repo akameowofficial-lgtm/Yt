@@ -1,7 +1,10 @@
-To build you a realistic plan for **Aka Yan Verse**, I need to clear the ground first. Before I map out your week, please tell me:
+To get this plan right, I need to calibrate to your actual rhythm. 
 
-1. **How many hours** do you actually have to dedicate to editing and creating this week?
-2. **What is already half-made?** (e.g., raw footage recorded, a rough cut sitting in your drive, or a trending audio you’ve already saved?)
-3. **What is your best day?** Which day of the week do your analytics show gets the most consistent views for your long-form/main clips?
+Before I build out your calendar for the week, please answer these two questions:
 
-Once you provide these, I will pull your tone profile together and build a schedule that fits your actual capacity.
+1. **How many hours do you actually have to work on your content this week?** (Be honest—if you only have 5 hours total, tell me that, not the 20 hours you wish you had).
+2. **What is already half-made?** (Do you have raw footage sitting in a folder, a funny clip from a stream, or a half-edited project file?)
+
+Also, since I don't have your specific voice file yet, please **link three of your own videos** (or paste the transcripts/captions if you have them). This helps me write titles and scripts that actually sound like *Aka Yan Verse* and not a corporate AI. 
+
+Once I have those, I’ll build your weekly plan with your one anchor, your one cheap win, and your Shorts strategy.
