@@ -1,10 +1,8 @@
-To get this plan right, I need to calibrate to your actual rhythm. 
+To build a plan that actually fits your capacity, I need to calibrate for your current reality. Before I draft your calendar, please answer these two questions:
 
-Before I build out your calendar for the week, please answer these two questions:
+1. **How many hours per week** do you realistically have to dedicate to editing and scripting for the channel?
+2. **What is already half-made?** (e.g., Do you have raw footage sitting in a folder, a half-edited project file, or a list of ideas that are ready to be turned into a script?)
 
-1. **How many hours do you actually have to work on your content this week?** (Be honest—if you only have 5 hours total, tell me that, not the 20 hours you wish you had).
-2. **What is already half-made?** (Do you have raw footage sitting in a folder, a funny clip from a stream, or a half-edited project file?)
+Additionally, to ensure the tone is perfect for "Aka Yan Verse," please **provide three links to your recent videos** (or descriptions of them). I will analyze them to create your voice profile so that your scripts sound exactly like you. 
 
-Also, since I don't have your specific voice file yet, please **link three of your own videos** (or paste the transcripts/captions if you have them). This helps me write titles and scripts that actually sound like *Aka Yan Verse* and not a corporate AI. 
-
-Once I have those, I’ll build your weekly plan with your one anchor, your one cheap win, and your Shorts strategy.
+Once I have those, I will build your week around one anchor video, one "cheap" video, and three Shorts clipped from the anchor.
