@@ -1,9 +1,6 @@
-To get your plan exactly right, I need to calibrate to your specific capacity. Before I build out your calendar for the week:
+Before I map out your week, I need to know your current bandwidth:
 
-1.  **How many hours total do you actually have to dedicate to production this week?**
-2.  **What is already half-made?** (e.g., recorded footage waiting for edits, a draft script, a cool clip you pulled yesterday).
-3.  **What is your channel’s best-performing day** according to your YouTube Analytics?
+1. **How many actual hours do you have this week** to edit and put these together?
+2. **What raw footage or clips do you already have sitting on your hard drive** that are half-made or ready to use?
 
-Once you give me those, I will build your table with the Anchor video, the Cheap upload, and the Shorts cuts. 
-
-**Ship it, or change it?**
+Once you drop those two details, I'll build your calendar with one anchor clip/video, a cheap follow-up, and three Shorts pulled straight from the main upload, complete with titles and what to drop if things get too busy.
