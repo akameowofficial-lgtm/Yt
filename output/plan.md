@@ -1,6 +1,8 @@
-Before I map out your week, I need to know your current bandwidth:
+To get this plan exactly right and ensure the tone hits for your 13–25 gaming audience, I need to calibrate to your specific workflow.
 
-1. **How many actual hours do you have this week** to edit and put these together?
-2. **What raw footage or clips do you already have sitting on your hard drive** that are half-made or ready to use?
+Before I draft your content calendar, please answer these two questions:
 
-Once you drop those two details, I'll build your calendar with one anchor clip/video, a cheap follow-up, and three Shorts pulled straight from the main upload, complete with titles and what to drop if things get too busy.
+1. **How many actual hours do you have to work on your channel this week?** (Be honest—including editing, recording, and uploading).
+2. **What is already "half-made"?** (Do you have raw clips from a stream, a half-edited project file, or a list of ideas sitting in your notes?)
+
+Also, since I don't have a voice profile for *Aka Yan Verse* yet, please provide **three links to your videos** (or titles/descriptions if they aren't live). I will analyze them to capture your specific "fun, fast, casual" style so that when I write titles or descriptions, they actually sound like you.
