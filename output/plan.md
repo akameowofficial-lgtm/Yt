@@ -1,8 +1,10 @@
-To get this plan exactly right and ensure the tone hits for your 13–25 gaming audience, I need to calibrate to your specific workflow.
+To get this plan right, I need to calibrate to your actual rhythm. 
 
-Before I draft your content calendar, please answer these two questions:
+Before I build out your calendar for the week, please answer these two questions:
 
-1. **How many actual hours do you have to work on your channel this week?** (Be honest—including editing, recording, and uploading).
-2. **What is already "half-made"?** (Do you have raw clips from a stream, a half-edited project file, or a list of ideas sitting in your notes?)
+1. **How many hours do you actually have to work on content this week?** (Be honest—if you have 5 hours, say 5. If you have 20, say 20.)
+2. **What is already "half-made"?** (Do you have raw footage sitting in a folder? A trending game update you’ve been meaning to clip? A draft of a script? Mention anything that is currently sitting 50% finished.)
 
-Also, since I don't have a voice profile for *Aka Yan Verse* yet, please provide **three links to your videos** (or titles/descriptions if they aren't live). I will analyze them to capture your specific "fun, fast, casual" style so that when I write titles or descriptions, they actually sound like you.
+Once I have those, I will map out your anchor video, your "cheap" win, and your Shorts strategy.
+
+Also, for the anchor video—what day of the week do your analytics usually show the most traffic?
