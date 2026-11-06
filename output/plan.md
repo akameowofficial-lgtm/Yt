@@ -1,8 +1,8 @@
-To build a plan that actually fits your capacity, I need to calibrate based on your current reality. Before I build your schedule, please tell me:
+To build a realistic plan for **Aka Yan Verse**, I need to anchor this in your actual capacity. Before I draft your calendar, please answer these two questions:
 
-1. **How many hours do you realistically have this week** for editing, recording, and uploading?
-2. **What is already half-made?** (Do you have raw footage waiting to be cut, a specific clip that performed well, or a draft already sitting in your editor?)
-3. **What is your "best" day?** Based on your channel analytics, which day of the week usually sees the highest engagement for your uploads? 
-4. **Three examples:** Please provide links or titles to three of your videos so I can finalize your `voice.md` profile and ensure the tone of your titles and descriptions sounds exactly like you.
+1. **How many hours do you have available this week** for editing, recording, and managing the channel?
+2. **What is already half-made?** (e.g., Do you have raw footage sitting in a folder, a script idea you’ve started, or a trending audio you’ve saved?)
 
-Once I have those, I will generate your weekly plan.
+Additionally, since I don’t have your voice profile file yet, please **link three of your existing videos** (or paste the scripts/transcripts). I will use these to ensure the tone of the titles and concepts I suggest perfectly matches your current style. 
+
+**Once you provide these, I will generate your weekly plan.**
