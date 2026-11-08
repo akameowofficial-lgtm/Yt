@@ -1,8 +1,8 @@
-To build a plan that actually fits your schedule, I need to know your capacity and your current status:
+To build a realistic plan that actually fits your capacity, I need two pieces of information:
 
-1. **How many hours do you actually have this week to dedicate to production?**
-2. **What is already half-made or sitting in your "to-edit" pile (raw footage, half-finished projects, specific clips)?**
+1. **How many hours do you actually have to dedicate to creation this week?**
+2. **What is already half-made?** (Do you have raw footage sitting in a folder, a script idea you’ve started, or a recurring series you’re midway through?)
 
-Also, looking at your channel, I need to make sure I capture your voice perfectly. **Could you please provide the links to three of your best-performing or favorite videos?** I will analyze them to build a voice profile so the scripts and titles I suggest sound exactly like you. 
+Once you give me those, I will generate a schedule that avoids burnout and focuses your energy on the right content. 
 
-Once I have those, I'll build you a realistic schedule with one anchor video, one "cheap" win, and your Shorts strategy.
+**Ship it, or change it?**
