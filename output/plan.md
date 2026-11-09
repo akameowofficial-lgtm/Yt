@@ -1,8 +1,8 @@
-To build a realistic plan that actually fits your capacity, I need two pieces of information:
+To make this plan realistic and effective for your channel, I need to calibrate it to your current bandwidth. 
 
-1. **How many hours do you actually have to dedicate to creation this week?**
-2. **What is already half-made?** (Do you have raw footage sitting in a folder, a script idea you’ve started, or a recurring series you’re midway through?)
+Before I draft your content calendar, please answer these two questions:
 
-Once you give me those, I will generate a schedule that avoids burnout and focuses your energy on the right content. 
+1. **How many hours do you realistically have to dedicate to editing and posting this week?**
+2. **What is already "half-made"?** (e.g., Do you have raw footage sitting in a folder, a recurring series you’re midway through, or comments/community posts that sparked an idea?)
 
-**Ship it, or change it?**
+Once you provide those, I will build out your anchor video, your cheap/reactive video, and your Shorts strategy.
