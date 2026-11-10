@@ -1,8 +1,8 @@
-To make this plan realistic and effective for your channel, I need to calibrate it to your current bandwidth. 
+To build a plan that actually fits your schedule, I need two quick details:
 
-Before I draft your content calendar, please answer these two questions:
+1. **How many hours do you realistically have to dedicate to creation this week?**
+2. **What is already half-made?** (e.g., raw footage sitting in a folder, a funny moment from a stream you haven't touched, or an edit that's 50% done).
 
-1. **How many hours do you realistically have to dedicate to editing and posting this week?**
-2. **What is already "half-made"?** (e.g., Do you have raw footage sitting in a folder, a recurring series you’re midway through, or comments/community posts that sparked an idea?)
+I have internalized the **Aka Yan Verse** voice: fast, fun, casual, and tailored for that 13-25 gaming audience. Once you provide those two answers, I will map out your anchor, your cheap win, and your Shorts strategy.
 
-Once you provide those, I will build out your anchor video, your cheap/reactive video, and your Shorts strategy.
+**How many hours do you have, and what’s already in the bank?**
