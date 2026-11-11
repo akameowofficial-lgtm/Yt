@@ -1,8 +1,10 @@
-To build a plan that actually fits your schedule, I need two quick details:
+To build a realistic plan that actually fits your schedule, I need two pieces of information:
 
-1. **How many hours do you realistically have to dedicate to creation this week?**
-2. **What is already half-made?** (e.g., raw footage sitting in a folder, a funny moment from a stream you haven't touched, or an edit that's 50% done).
+1. **How many hours do you actually have to dedicate to production this week?**
+2. **What is already half-made?** (e.g., Do you have a recording sitting in your drive? Do you have a trend you’ve already picked out?)
 
-I have internalized the **Aka Yan Verse** voice: fast, fun, casual, and tailored for that 13-25 gaming audience. Once you provide those two answers, I will map out your anchor, your cheap win, and your Shorts strategy.
+***
 
-**How many hours do you have, and what’s already in the bank?**
+*Note: I have internalized your voice profile for "Aka Yan Verse" (fun, fast, casual, gamer-focused). Once you provide your capacity and current assets, I will generate the content calendar and the specific hooks for your shorts.*
+
+**How many hours do you have, and what is already half-made?**
