@@ -1,8 +1,10 @@
-To build a realistic plan, I need to calibrate this to your current workflow. Please answer these two questions:
+To build a plan that actually fits your schedule, I need two details from you:
 
-1.  **How many hours do you actually have this week** to dedicate to YouTube?
-2.  **What is already half-made?** (e.g., Do you have raw gameplay footage sitting in a folder, a half-edited project, or a voiceover script started?)
+1. **How many hours can you realistically dedicate to content creation this week?** (Be honest—include filming, editing, and managing your socials).
+2. **What is already half-made?** (Do you have raw footage sitting in a folder, a half-edited project, or a clip that went viral on TikTok that you haven't repurposed yet?)
 
-Also, please let me know **which day of the week** your analytics show your audience is most active. 
+Once you provide those, I will put together your content calendar. 
 
-Once I have those, I will build your table and set the schedule.
+***
+
+*Note: I’ve created a voice profile for "Aka Yan Verse" based on your description (fast, casual, gaming-focused). As soon as you reply with your capacity and progress, I'll generate the table and the schedule.*
