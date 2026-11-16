@@ -1,10 +1,10 @@
-To build a plan that actually fits your schedule, I need two details from you:
+To build a realistic plan that fits your capacity, I need two pieces of information:
 
-1. **How many hours can you realistically dedicate to content creation this week?** (Be honest—include filming, editing, and managing your socials).
-2. **What is already half-made?** (Do you have raw footage sitting in a folder, a half-edited project, or a clip that went viral on TikTok that you haven't repurposed yet?)
+1.  **Capacity:** How many hours do you realistically have to dedicate to editing and filming this week?
+2.  **Inventory:** What is already half-made? (e.g., raw clips sitting in a folder, a script idea you’ve started, a recording session you haven't touched yet).
 
-Once you provide those, I will put together your content calendar. 
+Additionally, looking at your channel "Aka Yan Verse," I want to ensure the tone is spot on. To confirm I have your voice profile calibrated correctly: **Could you provide the links to three of your existing videos (or describe three recent ones)?**
 
-***
+Once I have those, I will build your table for the week with one anchor, one cheap build, and the supporting Shorts, mapped to your best-performing upload day.
 
-*Note: I’ve created a voice profile for "Aka Yan Verse" based on your description (fast, casual, gaming-focused). As soon as you reply with your capacity and progress, I'll generate the table and the schedule.*
+**How many hours do you have, what is already half-made, and what are those three videos?**
